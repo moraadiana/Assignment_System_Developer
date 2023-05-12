@@ -1,7 +1,5 @@
 var settings = {
-  "url": "http://52.59.33.40/web/api/code?code=2XNVmuH2YVhYvVGgh4YkV9m6ph4c8CxMMX6UzeeDh7LJTmgdLk4Fz38QLwFt3sSY6BHkCeK
-8B3Jhgt23Q4dX6A3pmFRMGnJejwDg
-",
+  "url": "http://52.59.33.40/web/api/code?code=645e0f120e28d",
   "method": "GET",
   "timeout": 0,
   "headers": {

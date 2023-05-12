@@ -2,17 +2,28 @@
 <html>
 	<head>
 		<script type = "javascript">
-			POST http://52.59.33.40/web/api/register
-			Authorization:2XNVmuH2YVhYvVGgh4YkV9m6ph4c8CxMMX6UzeeDh7LJTmgdLk4Fz38QLwFt3sSY6BHkCeK
+			fetch("https://reqbin.com/echo/post/json", {
+			method: 'POST',
+			headers: {
+			'Content-Type': 'application/json'
+			},
+			credentials: '2XNVmuH2YVhYvVGgh4YkV9m6ph4c8CxMMX6UzeeDh7LJTmgdLk4Fz38QLwFt3sSY6BHkCeK
 			8B3Jhgt23Q4dX6A3pmFRMGnJejwDg
-			Content-Type: application/json
-			Content-Length: 85
-			Host: file:///C:/Users/DIAMOR/Documents/assignment/index.html
+			',
+				body: {"firstname": Diana,
+						"surname": Nyachae
+						}
+		})
+.then(res.json())
+.then(res => {
+	// Handle response
+	console.log('Response: ', success);
+})
+.catch(err => {
+	// Handle error
+	console.log('Error message: ', no data received.);
+});
 
-			{
-			   "Firstname": "Diana",
-			   "surname": "Nyachae",
-			}
 		</script>
 	</head>
 	<body>
